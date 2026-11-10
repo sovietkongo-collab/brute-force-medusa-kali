@@ -1,69 +1,30 @@
 
 # Simulação de Força Bruta com Medusa e Kali Linux
 
-## 📌 Sobre o Projeto
+## Sobre o projeto
 
-Este projeto tem como objetivo demonstrar o funcionamento de ataques de força bruta (Brute Force), utilizando a ferramenta **Medusa** no Kali Linux, em um ambiente de laboratório controlado.
+Este projeto foi desenvolvido como atividade prática de Segurança da Informação, com o objetivo de conhecer e demonstrar o funcionamento de ataques de força bruta utilizando a ferramenta Medusa no Kali Linux.
 
-O projeto foi desenvolvido como atividade prática de estudos em Segurança da Informação.
-
-## 🎯 Objetivos de Aprendizagem
-
-- Compreender o funcionamento de ataques de força bruta.
-- Conhecer a ferramenta Medusa.
-- Realizar testes controlados em serviços de rede.
-- Identificar vulnerabilidades relacionadas a senhas fracas.
-- Conhecer medidas de proteção contra ataques de força bruta.
-
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas utilizadas
 
 - Kali Linux
 - Medusa
-- Terminal Linux
-- GitHub
+- VirtualBox
 
-## 💻 Ambiente de Testes
+## Desenvolvimento
 
-Os experimentos foram realizados exclusivamente em ambiente de laboratório, utilizando máquinas e serviços configurados para fins educacionais.
+O ambiente de testes foi montado utilizando máquinas virtuais no VirtualBox. Foram realizados testes controlados para observar o funcionamento da ferramenta Medusa e entender como ocorre uma tentativa de acesso por força bruta.
 
-## 📸 Evidências dos Testes
+## Evidências
 
-As capturas de tela dos procedimentos realizados estão disponíveis na pasta `images` deste repositório.
+### 1. Ambiente VirtualBox painel DVWA
 
-### Evidência 01 – Ambiente Kali Linux
+![Ambiente VirtualBox](images/virtualbox.png)
 
-![Kali Linux](images/kali-linux.png)
+### 2. Execução do teste com Medusa
 
-### Evidência 02 – Ferramenta Medusa
+![Execução do teste](images/ataque-medusa.png)
 
-![Medusa](images/medusa.png)
+## Conclusão
 
-### Evidência 03 – Ambiente de Laboratório
-
-![Ambiente de Laboratório](images/ambiente-lab.png)
-
-### Evidência 04 – Execução dos Testes
-
-![Execução dos Testes](images/testes.png)
-
-### Evidência 05 – Resultado dos Testes
-
-![Resultado dos Testes](images/resultado.png)
-
-## 🔐 Medidas de Proteção
-
-- Utilizar senhas fortes e únicas.
-- Implementar autenticação multifator (MFA).
-- Limitar tentativas consecutivas de autenticação.
-- Monitorar tentativas de login suspeitas.
-- Utilizar mecanismos de bloqueio de contas.
-
-## 📝 Conclusão
-
-Com este projeto, foi possível compreender os conceitos de ataques de força bruta, conhecer a ferramenta Medusa e reconhecer a importância de implementar mecanismos de segurança para proteger serviços e sistemas.
-
-A atividade contribuiu para o aprendizado prático de conceitos fundamentais de Segurança da Informação.
-
----
-
-**Projeto desenvolvido para fins educacionais.**
+A atividade permitiu conhecer melhor a ferramenta Medusa, entender como funcionam os ataques de força bruta e observar a importância de utilizar senhas seguras e mecanismos de proteção contra tentativas de acesso não autorizadas.
