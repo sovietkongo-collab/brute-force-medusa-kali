@@ -19,11 +19,11 @@ O ambiente de testes foi montado utilizando máquinas virtuais no VirtualBox. Fo
 
 ### 1. Ambiente VirtualBox painel DVWA
 
-![Ambiente VirtualBox](images/virtualbox.png)
+![Ambiente VirtualBox](virtualbox.png)
 
 ### 2. Execução do teste com Medusa
 
-![Execução do teste](images/ataque-medusa.png)
+![Execução do teste](ataque-medusa.png)
 
 ## Conclusão
 
